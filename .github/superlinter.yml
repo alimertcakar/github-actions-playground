@@ -1,0 +1,8 @@
+name: github-actions-playground
+
+on: push
+
+  jobs:
+    build
+      name: build the project
+      runs-on: ubuntu-latest
